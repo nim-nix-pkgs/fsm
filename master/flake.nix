@@ -11,6 +11,7 @@
   inputs.src-fsm-master.ref   = "refs/heads/master";
   inputs.src-fsm-master.owner = "ba0f3";
   inputs.src-fsm-master.repo  = "fsm.nim";
+  inputs.src-fsm-master.dir   = "";
   inputs.src-fsm-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
